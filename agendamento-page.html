@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende sua Consulta!</title>
+</head>
+<body>
+    <header>
+        <h1>Marque sua consulta!</h1>
+        <p>Basta preencher o fórmulário que está tudo pronto!</p>
+    </header>
+    <form>
+        <table border="1">
+            <th>Dados do paciente</th>
+            <tr>
+                <td>
+                        <!--Nome-->
+                        <label>Nome:</label>
+                        <input type="text" required>
+                        <!--Telefone-->
+                        <label>Telefone:</label>
+                        <input type="tel" required>
+                        <!--email-->
+                        <label>E-mail:</label>
+                        <input type="email" required>
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <th>Escolha a especialidade</th>
+            <tr>
+                <td>
+                    <label>Especialidade Médica:</label>
+                    <select required>
+                        <option>Selecione uma especialidade</option>
+                        <option>Clínico Geral</option>
+                        <option>Pediatria</option>
+                        <option>Cardiologista</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <th>Escolha o médico que irá lhe atender</th>
+            <tr>
+                <td>
+                    <label>Escolha o Médico:</label>
+                    <select required>
+                    <option>Selecione um médico</option>
+                    <option>Dr. Lucas Martins (Clínico Geral)</option>
+                    <option>Dra. Alessandra Felícia (Pediatra)</option>
+                    <option>Dr. João Luís Almeida (Cardiologista)</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <th>Escolha o horário de seu atendimento</th>
+            <tr>
+                <td>
+                    <label for="data">Data Desejada:</label>
+                    <input type="date" required>
+                    <label>Horário Desejado:</label>
+                    <input type="time" required>
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <th>Informações adicionais</th>
+            <tr>
+                <td>
+                    <label>Observações Adicionais:</label>
+                    <textarea placeholder="Digite aqui se houver algo adicional"></textarea>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Agendar Consulta</button>
+    </form>
+    <main>
+        
+    </main>
+</body>
+</html>
